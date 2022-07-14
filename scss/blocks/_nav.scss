@@ -1,0 +1,30 @@
+.nav{
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav__list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item{
+  margin-right: 20px;
+}
+
+.nav__item-link{
+  text-decoration: none;
+  color: #22343d;
+  transition: 0.3s ease;
+}
+
+.nav__item-link:hover{
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 980px) {
+    .nav{
+      display: none;
+    }
+}
