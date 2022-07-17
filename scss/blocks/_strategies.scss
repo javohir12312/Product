@@ -1,0 +1,85 @@
+.strategies__content{
+  background-color: #FBFBFB;
+  padding-top: 150px;
+}
+
+.strategies__heading{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.strategies__text{
+  max-width: 690px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #22343D;
+  margin: 0px;
+}
+
+.strategies__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.strategies__item{
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.strategies__item-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.strategies__item-text-thick{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: #22343D;
+}
+
+.strategies__item-heading{
+  max-width: 290px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343D;
+  margin: 0px;
+  transition: 0.3s ease
+}
+
+.strategies__item-heading:hover{
+  color: #02897A;
+}
+
+.strategies__circle-menu{
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .strategies__item-img{
+      max-width: 250px;
+      height: 170px;
+    }
+}

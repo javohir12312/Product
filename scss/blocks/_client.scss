@@ -1,0 +1,77 @@
+.client__content{
+  margin-top: 100px;
+}
+
+.client__heading{
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.client__text{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 530px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #22343D;
+}
+
+.client__item-text{
+  max-width: 275px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.client__list{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.client__item{
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.client__profil-info{
+  display: flex;
+}
+
+.client__profil-name{
+  margin: 0px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #02897A;
+} 
+
+.client__profil-work{
+  margin: 0px;
+  padding-left: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}

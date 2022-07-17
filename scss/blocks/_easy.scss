@@ -1,0 +1,118 @@
+.easy__content{
+  background-color: #FBFBFB;
+  padding-top: 100px;
+  background-image: url('../../img/bg_full.png');
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.easy__heading{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #22343D;
+}
+
+.easy__heading-text{
+  max-width: 542px;
+  margin-right: auto;
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #22343D;
+}
+
+.easy__content-bottom{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FBFBFB;
+}
+
+.easy__content-bottom-left-child{
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.easy__content-bottom-left-child:nth-child(2n){
+  flex-direction: row-reverse;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.easy__content-bottom-left-child-text{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2F281E;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.easy__content-bottom-right-child{
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-top: 40px;
+}
+
+.easy__content-bottom-right-child:nth-child(2n){
+  flex-direction: row-reverse;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+
+.easy___button{
+  display: block;
+  background: #02897A;
+  border-radius: 4px;
+  border: none;
+  padding: 15px 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: 0.4s ease;
+}
+
+.easy___button:hover{
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 870px) {
+  .easy__content-bottom{
+    display: block;
+  }
+
+  .easy__content-bottom-left-child{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .easy__content-bottom-right-child{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
